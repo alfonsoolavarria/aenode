@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 var bodyParser = require('body-parser')
 var mainjs = require('./router/main.js');
+var apiscrap = require('./router/apiscrap.js');
 
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
@@ -12,6 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/main', mainjs);
+app.use('/api', apiscrap);
 
 
 app.listen(port, () => {
