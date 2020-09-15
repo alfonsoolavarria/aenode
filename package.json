@@ -1,0 +1,22 @@
+{
+  "name": "aenodep",
+  "version": "1.0.0",
+  "description": "El futuro de lo que quieres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsoolavarria/aenode.git"
+  },
+  "author": "AE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonsoolavarria/aenode/issues"
+  },
+  "homepage": "https://github.com/alfonsoolavarria/aenode#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
